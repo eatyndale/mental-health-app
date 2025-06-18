@@ -4,11 +4,11 @@ services:
     env: python
     buildCommand: |
       python -m pip install --upgrade pip
-      pip install --no-cache-dir --only-binary :all: -r requirements.txt
+      pip install --no-cache-dir -r requirements.txt
     startCommand: gunicorn app.main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.7
+        value: 3.13.4
       - key: DATABASE_URL
         sync: false
       - key: SECRET_KEY
