@@ -1,0 +1,75 @@
+{
+    "hotlines": [
+        {
+            "name": "National Suicide Prevention Lifeline",
+            "number": "988",
+            "description": "24/7 support for people in suicidal crisis or emotional distress",
+            "languages": ["English", "Spanish"]
+        },
+        {
+            "name": "Crisis Text Line",
+            "number": "Text HOME to 741741",
+            "description": "24/7 text support for any type of crisis",
+            "languages": ["English"]
+        },
+        {
+            "name": "SAMHSA's National Helpline",
+            "number": "1-800-662-4357",
+            "description": "Treatment referral and information service for individuals facing mental health or substance use disorders",
+            "languages": ["English", "Spanish"]
+        },
+        {
+            "name": "National Alliance on Mental Illness (NAMI) Helpline",
+            "number": "1-800-950-6264",
+            "description": "Information, referrals, and support for people with mental health conditions",
+            "languages": ["English"]
+        },
+        {
+            "name": "The Trevor Project",
+            "number": "1-866-488-7386",
+            "description": "24/7 support for LGBTQ+ youth in crisis",
+            "languages": ["English"]
+        }
+    ],
+    "emergency_services": "911",
+    "resources": [
+        {
+            "name": "SAMHSA's National Helpline",
+            "number": "1-800-662-4357",
+            "description": "Treatment referral and information service for individuals facing mental health or substance use disorders",
+            "website": "https://www.samhsa.gov/find-help/national-helpline"
+        },
+        {
+            "name": "National Alliance on Mental Illness (NAMI)",
+            "description": "Education, support, and advocacy for people with mental health conditions",
+            "website": "https://www.nami.org/help"
+        },
+        {
+            "name": "MentalHealth.gov",
+            "description": "U.S. government information and resources on mental health",
+            "website": "https://www.mentalhealth.gov"
+        },
+        {
+            "name": "Psychology Today",
+            "description": "Find therapists, psychiatrists, and treatment centers",
+            "website": "https://www.psychologytoday.com/us/therapists"
+        }
+    ],
+    "self_help_resources": [
+        {
+            "name": "Crisis Prevention Plan",
+            "description": "Create a personalized plan for managing crisis situations",
+            "link": "/crisis-plan"
+        },
+        {
+            "name": "Grounding Techniques",
+            "description": "Learn techniques to stay present during moments of anxiety",
+            "link": "/grounding"
+        },
+        {
+            "name": "Breathing Exercises",
+            "description": "Simple breathing exercises to help manage stress and anxiety",
+            "link": "/breathing"
+        }
+    ]
+} 
